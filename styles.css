@@ -1,0 +1,461 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    align-items: center;
+}
+
+/*  Main menu section start */
+header, nav{
+    background-color: #2D25A0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainmenu ul li {
+    display: inline;
+  }
+  .menu a {
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .menu a:hover {
+    color: black;
+    background-color: #ddd;
+  }
+  .menu a.active {
+    color: white;
+    background-color: #FD6137;
+  }
+  .menu-button{
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 12px 26px;
+    margin-top: 2%;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    border: none;
+}
+
+ /*  Main menu end */ 
+
+.top-section{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-top: 30px;
+}
+
+
+.top-section h1{
+    color: white;
+    font-size: 50px;
+}
+.header-title{
+    padding-left: 30px;
+}
+
+  .banner img{
+    width: 556px;
+    height: 438px;
+    display: block;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+  .banner img:hover{
+    transform: rotate(180deg);
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 14px 25px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    font-size: 14px;
+    width: 168px;
+    height: 44px;
+    margin-top: 20px;
+    transition: width 2s, height 4s;
+}
+.btn:hover {
+    font-size: 18px;
+    width: 250px;
+    height: 100px;
+}
+.right-arrow{
+    padding-left: 10px;
+}
+.player-section{
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 20px 50px;
+    margin-left: 8px;
+}
+.players{
+    width: 330px;
+    border: 15px solid #ffffff;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(156, 171, 175, 0.219), 0 12px 30px 0 rgba(153, 176, 185, 0.185);
+}
+.players h1{
+    font-size: 24px;
+    text-align: left;
+}
+.players p{
+    font-size: 11px;
+    text-align: left;
+    color: #6C6C6C;
+}
+.player-section img{
+    width: 300px;
+    height: 256px;
+}
+.promotion-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    width: 1060px;
+    margin: 0px auto;
+}
+.promotion-1{
+  position: relative;
+  text-align: center;
+}
+.promotion-2{
+    position: relative;
+    text-align: center;
+}
+.promotion-1 img{
+    width: 520px;
+    height: 350px;
+    opacity: 0.5;
+    border-right: 5px solid #E02C6D;
+}
+.promotion-2 img{
+    width: 520px;
+    height: 350px;
+    opacity: 0.5;
+    border-left: 5px solid #E02C6D;
+}
+.prom-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .prom-btn h1{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #E02C6D;
+  }
+  .prom-btn2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .prom-btn2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #E02C6D;
+      
+  }
+  .app-heading{
+      color: black;
+  }
+  .down-app{
+      margin-top: 10px;
+  }
+.gplay img, .appleapp img{
+    width: 150px;
+    height: 44px;
+    opacity: 1;
+    border:0px;  
+}
+
+.down-app ul{
+    display: flex;
+}
+
+.down-app ul li{
+    list-style: none;
+}
+
+.down-app ul li a{
+    text-decoration: none;
+}
+.supporter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1060px;
+    margin: 0px auto;
+    border: 5px solid white;
+    margin-top: 40px;
+    box-shadow: 0 8px 16px 0 rgba(156, 171, 175, 0.219), 0 12px 30px 0 rgba(153, 176, 185, 0.185);
+}
+.sup-info{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sup-info h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.sup-info p{
+    color: lightslategray;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+/* footer styles */
+.footer{
+    padding: 90px 0 50px;
+    text-align: center;
+}
+.footer img{
+    width: 430px;
+}
+.footer-menu{
+    text-align: center;
+}
+.footer-menu .social-link{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-color: #d1c6c6;
+    text-align: center;
+    color: #969BAB;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin: 15px 8px 0;
+}
+.footer-menu .social-link:hover{
+    background-color: #cfcccc;
+}
+.footer-menu .social-icon{
+    line-height: 28px;
+}
+.footer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 0px;
+    color: #000000;
+    text-align: center;
+}
+
+/* Responsive Media Query for Mobile*/
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .headcontain{
+        background-color: #2D25A0;
+    }
+    .menu a {
+        font-size: 10px;
+    }
+    .top-section {
+        flex-direction: column;
+    }
+    .top-section h1 {
+        font-size: 35px;
+    }
+    .menu-button {
+        margin-right: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .menu a {
+        font-size: 16px;
+        padding: 14px 27px;
+    }
+    .container {
+        width: 115%;
+    }
+    
+    .player-section {
+        grid-template-columns: auto;
+        grid-gap: 20px;
+        margin-left: 0px;
+        padding: 20px 40px;
+    }
+    .promotion-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* .promo-section{
+        padding-top: 40px;
+    } */
+    .promotion-1, .promotion-2 {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .promotion-1 img, .promotion-2 img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .gplay img, .appleapp img {
+        width: 250px; 
+        height: 66px;
+    }
+
+    .supporter {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        margin: 2%;
+    }
+    .sup-info {
+        position: relative;
+    }
+    .sup-info p {
+        margin-bottom: 16px;
+    }
+    .sup-info .btn {
+        position: absolute;
+        top: 682px;
+        right: 36px;
+    }
+    .down-app ul {
+        flex-direction: column;
+    }
+    .sup-info p {
+    color: lightslategray;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+    .footer {
+        width: 100%;
+    }
+    .footer img {
+        width: 380px;
+    }
+    
+  }
+
+  
+/* Responsive Media Query for Tablets*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .headcontain{
+        background-color: #2D25A0;
+    }
+    .menu a {
+        font-size: 16px;
+    }
+    .top-section h1 {
+        font-size: 35px;
+    }
+    .menu-button {
+        margin-right: 20px;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 94%;
+    }
+    .container {
+        width: 100%;
+    }
+    
+    .player-section {
+        grid-template-columns: auto auto;
+    }
+    .promotion-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* .promo-section{
+        padding-top: 40px;
+    } */
+    .promotion-1, .promotion-2 {
+        width: 67%;
+    }
+    .promotion-1 img, .promotion-2 img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .gplay img, .appleapp img {
+        width: 250px; 
+        height: 66px;
+    }
+
+    .supporter {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        margin: 2%;
+    }
+    .sup-info {
+        position: relative;
+    }
+    .sup-info p {
+        margin-bottom: 16px;
+    }
+    .sup-info .btn {
+        position: absolute;
+        top: 274px;
+        right: 278px;
+    }
+
+    .sup-info p {
+    color: lightslategray;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+    .footer {
+        width: 100%;
+    }
+
+  }
